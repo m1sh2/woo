@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.rent.rent" version="0.1.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>RENT</name>
+    <description>
+        Economic Strategy
+    </description>
+    <author email="info@datsko.it" href="http://datsko.it">
+        Datsko IT
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+	<preference name="Fullscreen" value="true" />
+	<preference name="KeepRunning" value="true"/>
+	<preference name="permissions" value="none"/>
+	<platform name="android">
+	</platform>
+	<icon src="res/icon.png" />
+</widget>

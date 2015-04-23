@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400,500,700,900);
+
+body{
+	font: 100% "Alegreya Sans SC" 300, sans-serif;
+	margin: 0px;
+	padding:50px 0 0;
+	background:url(../images/bg.png) repeat 0 0;
+}
+.demoHeaders {
+	margin-top: 2em;
+}
+#dialog-link {
+	padding: .4em 1em .4em 20px;
+	text-decoration: none;
+	position: relative;
+}
+#dialog-link span.ui-icon {
+	margin: 0 5px 0 0;
+	position: absolute;
+	left: .2em;
+	top: 50%;
+	margin-top: -8px;
+}
+#icons {
+	margin: 0;
+	padding: 0;
+}
+#icons li {
+	margin: 2px;
+	position: relative;
+	padding: 4px 0;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+}
+#icons span.ui-icon {
+	float: left;
+	margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+	position: absolute;
+}
+
+/* Constructor */
+.dialog{position:absolute;width:100%;left:0%;top:20px;z-index:1000;
+	#dialog{position:relative;width:500px;margin:0 auto;}
+}
+.p{display:block;position:fixed;width:100%;height:30px;background:url(../images/bg-p.png) repeat-x 0 0;left:0;top:0;z-index:1;padding:0;margin:0;box-shadow: 0 0px 10px #000;
+	li{display:block;float:left;height:22px;margin:2px 5px 0;line-height:22px;padding: 0 10px;color: #ddd;background:url(../images/bg-p.png) repeat-x 0 0;text-shadow: 0 1px #000;border:1px solid #999;border-radius:5px;font-size:13px;cursor:pointer;
+		&:first-child{border:0;background:none!important;line-height:26px;}
+		&:last-child{float:right;}
+		&:hover{background:url(../images/bg-p-hover.png) repeat-x 0 0;color:#eee;}
+		h1{padding:0;margin:0;font-size:18px;font-weight:100;}
+	}
+}
+
+.w{display:block;border:1px dashed #333;position:relative;overflow:hidden;
+	.t{display:block;position:absolute;width:20px;height:20px;background:#090;left:40px;top:40px;}
+	.e{display:block;position:absolute;width:20px;height:20px;background:#009;left:40px;top:40px;
+		&.fired{background:#f0f;}
+	}
+	.f{display:block;position:absolute;width:4px;height:4px;background:#f00;left:40px;top:40px;border-radius:5px;}
+	.l{display:block;position:absolute;width:20px;height:3px;background:#600;top:-5px;
+		span{display:block;position:absolute;width:100%;height:100%;background:#0c0;}
+	}
+	.inner{width:4998px;height:4998px;background:#ccc;margin:10px;border:1px solid #999;position:absolute;left:0;top:0;
+		
+	}
+	
+	
+}
